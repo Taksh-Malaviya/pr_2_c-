@@ -30,8 +30,8 @@ class Railway{
 	private:
 		int train_number;
 		string name;
-		string source;
-		string destination;
+		string from;
+		string to;
 		int train_time;
 	public:
 	set(){
@@ -46,10 +46,10 @@ class Railway{
 		cin>>this->train_number;
 		cout<<"\tEnter your name   :";
 		cin>>this->name;
-		cout<<"\ttsource            :";
-		cin>>this->source;
-		cout<<"\ttdestinatio        :";
-		cin>>this->destination;
+		cout<<"\tfrom            :";
+		cin>>this->from;
+		cout<<"\tto        :";
+		cin>>this->to;
 		cout<<"\tTrain time        :";
 		cin>>train_time;
 	}
